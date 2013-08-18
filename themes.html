@@ -1,0 +1,56 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Morality and societies limits on one's desires</li>
+					<li data-theme="d">The seemingly main theme throughout the story is the effect and limits society and morality limits the ability to achieve one's desire</li>
+					<li data-theme="c">The main character Ethan Frome is married to a women often described as unflattering and unattractive</li>
+					<li data-theme="d">He however falls for another woman which is understandable by the descriptions of his wife, however he struggles with his love as it is not moral to commit adultery, and obviously not accepted in society</li>
+					<li data-theme="c">Ethan's problems with not being able to escape his morals and societies scrutiny takes his own life</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The effect of winter and its oppressive nature</li>
+					<li data-theme="d">Throughout the novel the reader sees the effects of winter on the characters</li>
+					<li data-theme="c">The nearly six month winter in the town of Starkfield seems to sap life from its inhabitants, emotionally draining them</li>
+					<li data-theme="d">The weather seems to prevent those in Starkfield from making significant progress in their lives</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Ethan Frome</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
