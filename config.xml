@@ -49,16 +49,16 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
-    <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="images/5757.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="images/7272.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="images/114114.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="images/144144.png"         gap:platform="ios"        width="144" height="144" />
 
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="splash.png" />
-    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
-    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
-    <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="images/320480.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="images/640960.png" gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="images/7681024.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="images/1024768.png"     gap:platform="ios"     width="1024" height="768" />
 
 </widget>
